@@ -17,4 +17,16 @@ public class C01_Ogrenci {
         this.not = not;
 
     }
+
+
+
+
+    @Override
+    public String toString() {
+        return "C01_Ogrenci{" +
+                "isim='" + isim + '\'' +
+                ", yas=" + yas +
+                ", not=" + not +
+                '}';
+    }
 }
