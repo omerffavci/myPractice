@@ -15,5 +15,13 @@ public class ArrayList_soru12 {
         int a[] = { 0, 2, 5, 3, 1 };
         List<Integer> list = new ArrayList<>();
         Arrays.stream(a).forEach(t-> list.add(t));
+        System.out.println("list.toString() = " + list.toString());
+
+        int[] numbers = { 1, 2, 3, 4, 5 };
+
+        int sum = Arrays.stream(numbers).sum();
+
+        System.out.println("Toplam: " + sum);
+
     }
 }
